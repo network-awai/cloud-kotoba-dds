@@ -54,7 +54,7 @@ cloudKotobaBot.update(face, {...options, status: 'working'});
 
 - [動く見本](examples/bots.html): 架空の Bot、同じ色・形で異なる ID、7 状態、動きの停止。
 - `node test/bot-component.mjs`: ID の安定性、状態の独立性、近い ID の分散、DOM 維持、アクセシビリティ切替。
-- `python3 source/bots-example.py`: 同梱 DADS トークンから見本を再生成。
+- `basilisp run source/bots-example.lpy`（Basilisp 0.5.1）: 同梱 DADS トークンから見本を再生成。
 - 320 / 390 / 768 / 1440 CSS px で横はみ出しなし、状態変更・手動停止・reduced motion をブラウザで確認。
 
 Apache-2.0。見本の DADS トークンのライセンスは `assets/LICENSE-DADS` と `assets/LICENSE-jp-go-dds` を参照してください。
